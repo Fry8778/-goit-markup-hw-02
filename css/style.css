@@ -1,50 +1,140 @@
+:root {
+    --primery-text-color:#757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+}
+
+
 body {
     background-color: #FFFFFF;
-    color:#757575;
+    color: #757575;;
+}
+/*Logo*/
+
+.logo {
+    text-decoration: none;
 }
 
 .logo-up-black {
     color:#000000;
 }
 
-.logo-up-blue {
-   color: #2196F3;
+.logo-up-black:hover {
+    color: var(--accent-color);
 }
+
+.logo-up-blue {
+    color: var(--accent-color);
+}
+
+/*Site navigation*/
 
 .list {
     list-style: none;
 }
 
-/*Site navigation*/
-
 .site-nav a {
-   color: #212121;
+    text-decoration: none;
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/*Auth-nav*/
+.auth-nav .link {
+    text-decoration: none;
+    color: var(--primery-text-color);    
 }
 
 
-/*Цвет лого*/
-#2196F3;
-#000000;
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: var(--accent-color);
+}
 
-/* Цвет Лого WEB, Студия, Ссылка в шапке*/
-#2196F3;
+/*Hero*/
+.hero-title {
+    color: #FFFFFF;
+}
 
-/*Цвет текста герой*/
-#FFFFFF;
+.button {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
 
-/* Цветпримущества теста*/
-<h3>#212121;
-Цвет основного текста <p>#757575;
+/*Section*/
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+ /*Features*/
+
+.features-list {
+    list-style: none;
+}
+
+.features-list .title {    
+    color: var(--title-text-color);
+}
+
+/*Наша деятельность*/
+
+.images {
+    list-style: none;
+}
+
+/*Staff*/
+
+.staff {
+    list-style: none;
+}
+
+.staff-name {
+    color: var(--title-text-color);
+}
+.staff-position {
+    color: var(--primery-text-color);
+}
+
+/*Footer*/
+
+.logo-down-white {
+    color: #FFFFFF;
+}
+
+.logo-down-white:hover {
+    color: var(--accent-color);
+}
+
+.logo-down-blue {
+    color: var(--accent-color);
+}
+
+.bottom .list,
+.bottom .town,
+.bottom .link{
+    text-decoration: none;
+}
+
+.bottom .town {
+    color: #FFFFFF;
+}
+
+.bottom .link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.bottom .town:hover,
+.bottom .town:focus,
+.bottom .link:hover,
+.bottom .link:focus{
+    color: var(--accent-color);
+}
 
 
-
-/*Цвет героя и футера*/
 
 hero and footer color цвет бекграунд: #2F303A;
-Адрес: #FFFFFF;
-Єлектронка и телефон FFFFFF с 60% прозрачности;
-rgba(255, 255, 255, 0.6);
-
-/*Вторичный цвет фона*/
-#F5F4FA;
-/*Цвет основной*/
