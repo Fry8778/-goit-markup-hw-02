@@ -1,30 +1,38 @@
+/*PAGE 1: CSS for WebStudio*/
+
 :root {
     --primery-text-color:#757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
+    --primery-white-color:#FFFFFF;
 }
 
 
 body {
-    background-color: #FFFFFF;
-    color: #757575;;
+    background-color: var(--primery-white-color);
+    color: var(--primery-text-color);
+    font-family: Roboto, 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.03em;
 }
+
 /*Logo*/
 
 .logo {
+    color:#000000;
+    font-family: Raleway;    
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;    
+    letter-spacing: 0.03em;
     text-decoration: none;
 }
 
-.logo-up-black {
-    color:#000000;
+.logo:hover {
+    color:var(--accent-color);
 }
 
-.logo-up-black:hover {
-    color: var(--accent-color);
-}
-
-.logo-up-blue {
-    color: var(--accent-color);
+.up-blue {
+    color:var(--accent-color);
 }
 
 /*Site navigation*/
@@ -34,17 +42,28 @@ body {
 }
 
 .site-nav a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
+    color: var(--accent-color);    
+}
+.site-nav .link.current {
     color: var(--accent-color);
 }
 
 /*Auth-nav*/
 .auth-nav .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--primery-text-color);    
 }
@@ -56,29 +75,64 @@ body {
 }
 
 /*Hero*/
+
+.hero {
+    background-color:#2F303A;
+}
 .hero-title {
-    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36;     
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;    
+    color: var(--primery-white-color);
+   
 }
 
-.button {
-    color: #FFFFFF;
+.button {   
+    color: var(--primery-white-color);
     background-color: var(--accent-color);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;  
+    text-align: center;
+    letter-spacing: 0.06em;   
 }
-
-/*Section*/
 
 .section-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
+/*Преимущества*/
 
- /*Features*/
+.features-list .title {
+    font-family: 'Roboto';  
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+
+}
+
+.features-list .text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color);
+}
 
 .features-list {
     list-style: none;
-}
-
-.features-list .title {    
-    color: var(--title-text-color);
 }
 
 /*Наша деятельность*/
@@ -89,28 +143,47 @@ body {
 
 /*Staff*/
 
-.staff {
+.section-people {
+    background-color: #F5F4FA;}
+
+.staff {    
     list-style: none;
 }
 
-.staff-name {
+.staff-name {    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
 .staff-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
     color: var(--primery-text-color);
 }
 
 /*Footer*/
 
-.logo-down-white {
-    color: #FFFFFF;
+.footer {
+    background-color:#2F303A;
 }
-
-.logo-down-white:hover {
+.logo-down {
     color: var(--accent-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.down-white {
+    color: var(--primery-white-color);
 }
 
-.logo-down-blue {
+.down-white:hover {
     color: var(--accent-color);
 }
 
@@ -121,10 +194,22 @@ body {
 }
 
 .bottom .town {
-    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primery-white-color);
 }
 
 .bottom .link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;   
+    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 
@@ -136,5 +221,7 @@ body {
 }
 
 
+    /*PAGE 2: CSS for Pornfolio*/
 
-hero and footer color цвет бекграунд: #2F303A;
+
+
