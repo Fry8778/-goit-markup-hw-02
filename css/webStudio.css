@@ -26,6 +26,8 @@
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
     color: var(--primery-white-color);
     background-color: var(--accent-color);
 }
