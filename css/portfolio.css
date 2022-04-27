@@ -9,7 +9,7 @@
 }
 
 .filter-list .work{
-    font-family: 'Roboto';    
+    font-family:inherit;    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -36,8 +36,7 @@
     list-style: none;
 }
 
-.portfolio-list .title {   
-    font-family: 'Roboto';  
+.portfolio-list .title {  
     font-weight: 700;
     font-size: 18px;
     line-height: 2;   
@@ -46,8 +45,7 @@
 
 }
 
-.portfolio-list .function {
-    font-family: 'Roboto';    
+.portfolio-list .function {   
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;   

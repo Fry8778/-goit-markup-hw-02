@@ -107,8 +107,7 @@ body {
     text-decoration: none;
 }
 
-.bottom .town {
-    font-family: 'Roboto';
+.bottom .town {  
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -117,8 +116,7 @@ body {
     color: var(--primery-white-color);
 }
 
-.bottom .link {
-    font-family: 'Roboto';
+.bottom .link {  
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
